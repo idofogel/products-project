@@ -1,3 +1,19 @@
+
+# This is the project that shows lists of products:
+When you open the project it loads a list of products either from the seed or from the localStorage:
+![alt text](image.png)
+When pressing an element the details panel opens on the right:
+![alt text](image-1.png)
+you can update the item
+when you press the 'add' button an empty detail page should open so that you can add a new product, validation pending
+pressing delete button on an ittem leads to the deletion of the product
+adressing the route '/products/:id' when ID is an ID of an existing object
+will open the page with the panel open with the chosen product.
+if you want to know which items are available you can watch the list of products in the console.log
+![alt text](image-2.png)
+it has pagination and filtering based on the select box and the text box above:
+![alt text](image-3.png)
+the pages are paginated
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -5,9 +21,10 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 ## Available Scripts
 
 In the project directory, you can run:
-
+### `npm install`
+because I erased the node_modules. and then
 ### `npm start`
-
+that's what I did to run the project
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
